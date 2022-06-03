@@ -4,6 +4,11 @@ First install our runtime dependencies (biswebbrowser, which includes jQuery, bo
 
 	npm install -d
 
+    npm install --global gulp-cli
+    npm install --save-dev webpack
+    npm install --save-dev webpack-cli
+
+
 ## To Run:
 
 First build the JS bundle using:
