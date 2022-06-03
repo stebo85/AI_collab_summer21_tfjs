@@ -5,8 +5,8 @@ First install our runtime dependencies (biswebbrowser, which includes jQuery, bo
 	npm install -d
 
     npm install --global gulp-cli
-    npm install --save-dev webpack
-    npm install --save-dev webpack-cli
+    npm install --save-dev webpack webpack-cli
+    npm i -g webpack-cli
 
 
 ## To Run:
@@ -23,4 +23,6 @@ directly in `index.html`.
 Run as a web application, using:
 
     gulp webserver
+
+    open: http://127.0.0.1:9000/web/tfjs.html
 
